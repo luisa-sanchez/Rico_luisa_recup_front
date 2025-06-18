@@ -1,0 +1,41 @@
+:root {
+  --bs-primary: #b94866;
+  --bs-primary-rgb: 185, 72, 102;
+}
+
+/* Ajustamos clases estándar de Bootstrap
+   que usan --bs-primary-rgb */
+.btn-primary,
+.bg-primary,
+.border-primary {
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-bg: #a63d59;   /* un poco más oscuro */
+  --bs-btn-hover-border-color: #a63d59;
+  --bs-bg-opacity: 1;
+  --bs-border-opacity: 1;
+}
+
+/* 9. Hover del menú */
+.navbar .nav-link {
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #ffd6e3; /* combinación suave con el primario */
+}
+
+
+
+/* 13. Responsive extra */
+.carousel-caption {
+  /* texto legible en fondos claros/oscuro */
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+
+/* Tarjetas iguales en altura */
+.card-img-top {
+  object-fit: cover;
+  height: 230px;
+}
