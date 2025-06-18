@@ -68,3 +68,7 @@ main{
   display: inline-block;
   margin-left: -10px;
 }
+
+.input-group-text{
+  background-color: beige;
+}
