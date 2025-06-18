@@ -58,7 +58,9 @@ main{
   object-fit: cover;
   height: 230px;
 }
-
+ p{
+  font-size: small;
+ }
 .me-1{
    width: 200px;  
    height: auto; 
