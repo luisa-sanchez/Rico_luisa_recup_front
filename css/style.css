@@ -1,3 +1,16 @@
+html,body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+main{
+  flex: 1;
+}
+
+
+
+
 :root {
   --bs-primary: #b94866;
   --bs-primary-rgb: 185, 72, 102;
@@ -9,7 +22,6 @@
   padding: 0.5rem 1rem;
   clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
   display: inline-block;
-
 
   }
 
@@ -47,3 +59,12 @@
   height: 230px;
 }
 
+.me-1{
+   width: 200px;  
+   height: auto; 
+   background-color: #b94866; 
+  padding-left: 10px;
+  
+  display: inline-block;
+  margin-left: -10px;
+}
